@@ -10,7 +10,7 @@ const {ShoppingList} = require('./models');
 // so there's some data to look at
 ShoppingList.create('beans', true);
 ShoppingList.create('tomatoes', false);
-ShoppingList.create('peppers', false);
+ShoppingList.create('pepper', false);
 
 // when the root of this router is called with GET, return
 // all current ShoppingList items
