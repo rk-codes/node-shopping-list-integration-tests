@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: T/dPzlng+XebVSLDM6qgXSQwWjA8SE/1hOteowxm72erqC1JRZnHVigDRR96MeaLSix04bpZAC3DmowWzwuJCrE0y9tDZn7dlMMxkwqVCkES5g0heu6f2ISa3hn1+/CTRK7myFfdx7K3bTiXSHu9onsBk5UriKI7Hxlsg9xFePcQVVn3IS7i1rqlScOUQXxIvavQ5NJ6Gr9yXYfVztwJcvgsWwpHkJ5jFZZS/r8O0kDgBSVdw0HhFP3F4Y+H99nR3m8wiHBefwq6xIeKdJGuynqAimDmWTLn1aBgEOaOuh0HBPcA5Y3f6CC2lILTRticK3bOW1W9rgJOQFX4CxjseeCgh5P1pgNPQYku65Gr60jdw9OTCScufAE6kMoLK8aSaVfHbOiI/CxPf9/dttLJ/0nwFGLMNbPCcJt+uJg7C+e5283gb2n2KqhM6huJEh5/H1qq20jqhuGekorZc+DI+KFDdD4gHGf2BdOpJy7ip4CbDSp2jrJ/f5sDxc9UaVRxGp2xwZx2Q8EmWznoIekqNuoHgefnOqdPKHUUCuNJcIDkyrif32n3Jg8f21tycVHWFkICm6y7pDkZb1+g14d/SGU7uU1gYj39fTjLEpvEyCmmqZfehzS61+6fPs2ckMxn64jGYr7dDjDS7zrzwojQvfoEz4vp5HpKxVyhpn5oHHw=
+  app: aqueous-beyond-53737
+  on:
+    repo: rk-codes/node-shopping-list-integration-tests
